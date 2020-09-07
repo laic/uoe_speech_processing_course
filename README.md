@@ -35,10 +35,11 @@ These labs use [Jupyter Notebooks](https://jupyter.org). These provide an intera
 
 There are many tutorials about using Jupyter Notebooks on the internet.  If you've never used them before, it's a good idea to go through at least one to get used to how they work. Here's just a sample: 
 
-* [From the Binder project](https://gke.mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)
-* [From Towards Data Science](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)
-* [From the Jupyter project](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
-* [From the Jupyter project](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
+* [A very quick overview from the Jupyter docs](https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb)
+* [Another quick overview from Towards Data Science](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)
+* [An interactive tutorial from the Binder project](https://gke.mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)
+* [Jupyter docs](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+
 
 If you're reading this, you've obviously figured out how to view these notebooks! There are some instructions on how to set up Jupyter Notebooks for interactive use below. 
 
