@@ -1,28 +1,5 @@
-# Speech Processing 2020: How to use these notebooks 
+# Speech Processing Labs: How to use these notebooks
 
-This repository includes lab notebooks for the University of Edinburgh course: Speech Processing (LASC11158/LASC10061). At the moment this just contains notebooks for the first two modules of the course, which focus on signal processing. 
-
-The text below just duplicates the content of the [How to notebook](./slp-m0-how-to-start.ipynb) 
-
-## 0 List of Notebooks 
-
-### M0 Preliminaries
-* [How to use these notebooks](./slp-m0-how-to-start.ipynb) (same as this readme, minus interactive code fragment)
-
-
-### M1 Analyzing Sounds in Time and Frequency
-* [Sounds and Signals (praat)](./slp-m1-1-sounds-signals.ipynb)
-* [Digital Signals: Complex numbers and sinusoids](./slp-m1-2-digital-signals-complex-numbers.ipynb)
-* [Digital Signals: Sampling sinusoids](./slp-m1-3-sampling-sinusoids.ipynb)
-* [The Discrete Fourier Transform](./slp-m1-4-discrete-fourier-transform.ipynb)
-* [Interpreting the DFT](./slp-m1-5-interpreting-the-dft.ipynb)
-
-### M2 Source and Filter
-* [Building the source: impulse trains](slp-m2-1-impulse-as-source.ipynb)
-* [FIR filters](slp-m2-2-fir-filters.ipynb)
-* [IIR filters](slp-m2-5-iir-filters.ipynb)
-* [The Inverse DFT]()
-* [Poles and zeros (extension)]()
 
 ## 1 Labs with Python and Jupyter Notebooks
 
@@ -39,6 +16,7 @@ There are many tutorials about using Jupyter Notebooks on the internet.  If you'
 * [An interactive tutorial from the Binder project that's made up of Jupyter notebooks](https://gke.mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)
 * [Another quick overview from Towards Data Science](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)
 * [Jupyter docs](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+
 
 
 If you're reading this, you've obviously figured out how to view these notebooks! There are some instructions on how to set up Jupyter Notebooks for interactive use below. 
@@ -69,6 +47,26 @@ Some matplotlib tutorials:
 * [Matplotlib crash course](https://pythonprogramming.net/matplotlib-python-3-basics-tutorial/)
 
 
+## 0 List of Notebooks 
+
+### M0 Preliminaries
+* [How to use these notebooks](./slp-m0-how-to-start.ipynb) (same as this readme, minus interactive code fragment)
+
+
+### M1 Analyzing Sounds in Time and Frequency
+* [Sounds and Signals (praat)](./slp-m1-1-sounds-signals.ipynb)
+* [Digital Signals: Complex numbers and sinusoids](./slp-m1-2-digital-signals-complex-numbers.ipynb)
+* [Digital Signals: Sampling sinusoids](./slp-m1-3-sampling-sinusoids.ipynb)
+* [The Discrete Fourier Transform](./slp-m1-4-discrete-fourier-transform.ipynb)
+* [Interpreting the DFT](./slp-m1-5-interpreting-the-dft.ipynb)
+
+### M2 Source and Filter
+* [Building the source: impulse trains](slp-m2-1-impulse-as-source.ipynb)
+* [FIR filters](slp-m2-2-fir-filters.ipynb)
+* [IIR filters](slp-m2-5-iir-filters.ipynb)
+* [The Inverse DFT]()
+* [Poles and zeros (extension)]()
+
 ## 2 Interacting with the Notebooks
 
 ### 2.1 The Easy Online Way: Edina Noteable
@@ -82,16 +80,16 @@ The main steps to loading up these labs is as follows.
 * Start up Noteable by: 
     * going to the following URL in your browser login in with your EASE username and password:
         * https://noteable.edina.ac.uk/login
-    * **or** clicking on the Noteable link on the course Learn page (**check me??**)
+    * **or** clicking on the Noteable link on the course Learn page
 
 * Select Standard Notebook and click on start
 
 * You'll then see the jupyter start directory, showing you links to the files in it (probably empty at this point). 
 
 * You can now import the notebook git repository by clicking the +GitRepo button and putting in the git repo address:
-    * https://git.ecdf.ed.ac.uk/clai/speech_processing.git
+    * https://github.com/laic/uoe_speech_processing_course
  
-* You should now be able to see a link called `speech_processing`. If you click on this, you should see the notebooks.  
+* You should now be able to see a link called `uoe_speech_processing_course`. If you click on this, you should see the notebooks.  
 
 * Click on a notebook to start it!  
     
@@ -100,7 +98,7 @@ The main steps to loading up these labs is as follows.
 Noteable also supports a unix terminal interface.
 If you're happy with using the unix command line, you can click on the 'new' button and start a new _terminal_ instance.  You could then, for example, use the git clone command to get the repo: 
 ```
-git clone https://git.ecdf.ed.ac.uk/clai/speech_processing.git
+git clone https://github.com/laic/uoe_speech_processing_course
 ```
 This isn't really necessary for our class work, but it may be useful thing for you to get familiar with in the future.  For example, you'll need to use the terminal if you want to clone a private git repository. Once you've got the hang of it, tt can also be a lot easier to use the terminal to do a lot of things, e.g. organize your files.
 
@@ -119,9 +117,9 @@ You can also run Jupyter Notebooks locally on your own computer. Once you have e
 
 If you already have Python 3 install, you could just use `pip` to get the rest.  But, I'd recommend using miniconda because it will be useful for many other things later. 
 
-#### Install Python 3 and Miniconda
+#### Install Python 3.8 and Miniconda
 
-Download the Miniconda python 3.8 installer. You'll need to choose the appropriate version for your operating system (Window, MacOs or Linux) and the number of bits your CPU uses (64 or 32).  
+Download the Miniconda 3.8 installer. You'll need to choose the appropriate version for your operating system (Window, MacOs or Linux) and the number of bits your CPU uses (64 or 32).  
 
 https://docs.conda.io/en/latest/miniconda.html
 
@@ -175,10 +173,11 @@ Note: You'll need to get the notebook repository from gitlab the 'normal way'.  
 ```
 git clone https://git.ecdf.ed.ac.uk/clai/speech_processing.git
 ```
-You should now see a directory call `speech_processing` in the directory where you called the `git clone` command. 
+You should now see a directory call `uoe_speech_processing_course` in the directory where you called the `git clone` command. 
 
 
-#### Notes: 
+
+#### Notes
 
 * The remote desktop service, Guacamole, uses python 2.7 by so you'll need to set up a python 3 enviroment to run these labs.
 * As noted above, if you're ok working online you should probably just use the Edina Noteable servers!
@@ -230,36 +229,53 @@ If you click on the small keyboard icon on the menu bar (next to the cell type),
 print("Hello! My name is YOUR_NAME_HERE")
 a = 793  ## This is a comment
 b = 13   ## You could also change this value and see a change in the second sentence printed out
-print("Did you know that %d + %d = %d ?" % (a, b, a+b))
+print("Did you know that %d + %d = %d?" % (a, b, a+b))
 ```
+
+    Hello! My name is YOUR_NAME_HERE
+    Did you know that 793 + 13 = 806?
+
 
 Double click on this markdown cell to edit it! 
 
 ## 4 Getting the Latest Version of these  Lab Notebooks
 
-You can get the latest version of the notebooks from this gitlab repository:
-https://git.ecdf.ed.ac.uk/clai/speech_processing
+You can get the latest version of the notebooks from this github repository:
+https://github.com/laic/uoe_speech_processing_course
 
 
 The usual way to download a git repository like this is to run the following on the command line (i.e. in your terminal
 
 ```
-git clone https://git.ecdf.ed.ac.uk/clai/speech_processing.git
+git clone https://github.com/laic/uoe_speech_processing_course
 ```
 
-This will download the a folder called `speech_processing` into your current working directory.  
+This will download the a folder called `uoe_speech_processing_course` into your current working directory.  
+
+### Updating the repo
+
+If you've already cloned the repository somewhere, you can get the lastest version by going to the `uoe_speech_processing_course` directory
+and typing in the following command: 
+
+```
+git pull
+```
+
+**Note** This may cause merge conflicts (i.e., your version local clashes with the new version)  if you've modified and saved the notebooks already (which you should be doing!).  We'll try to avoid this by making sure we create notebooks with different names if we update one you might already have worked on.  In practice, though, merging and resolving conflicts is a very normal thing in software engineering when you're working with other people.  You can read more about updating repositories in the [github documentation](https://docs.github.com/en/github/using-git/getting-changes-from-a-remote-repository)
 
 
-You can also download a zip file of the all the labs from the gitlab page. 
+
+You can also download a zip file of the all the labs from the github page. 
 
 
-#### More info on  Gitlab at the University of Edinburgh
-https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Version+Control+Service+-+GitLab
 
-#### More info on git (and github)
-Gitlab is an interface for using the git version control system.  We've got a university subscription to gitlab, but in reality pretty much everyone uses github for sharing and tracking code. Knowing some basic git is really quite essential for working with code these days. 
+
+### More info on git (and github)
+
+Pretty much everyone uses git, and specifically github, for sharing and tracking code (i.e. version control). Knowing some basic git is really quite essential for working with code these days. 
 
 * [The github guide to git](https://guides.github.com/introduction/git-handbook/)
+
 
 
 ## 5 What should I do for these labs? 
@@ -276,7 +292,7 @@ The main tasks for the labs are these:
 
 ## 6 Help! 
 
-If you run into trouble or this is all a bit much, ask for help!  
+People taking this course come from lots of different backgrounds. If you run into trouble or this is all a bit much, ask for help! 
 
 * Matt Spike is our designated tech support contact for Speech Processing (and the MSc SLP in general). He can help you with all sorts of technical issues. 
 * You can and should also talk your tutors/lecturers:
