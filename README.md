@@ -178,11 +178,8 @@ git clone https://git.ecdf.ed.ac.uk/clai/speech_processing.git
 ```
 You should now see a directory call `speech_processing` in the directory where you called the `git clone` command. 
 
-#### Virtual Machine
 
-_I need to find a computer with more space to test!_
-
-#### Guacamole 
+#### Notes: 
 
 * The remote desktop service, Guacamole, uses python 2.7 by so you'll need to set up a python 3 enviroment to run these labs.
 * As noted above, if you're ok working online you should probably just use the Edina Noteable servers!
