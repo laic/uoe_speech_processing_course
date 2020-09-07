@@ -1,6 +1,8 @@
 # Speech Processing Labs: How to use these notebooks
 
+This repository includes lab notebooks for the University of Edinburgh course: Speech Processing (LASC11158/LASC10061). At the moment this just contains notebooks for the first two modules of the course, which focus on signal processing. 
 
+The text below just duplicates the content of the [How to notebook](./sp-m0-how-to-start.ipynb) 
 ## 1 Labs with Python and Jupyter Notebooks
 
 People taking the Speech Processing course come from lots of different backgrounds. While we assume everybody has a bit of programming experience, we've tried to design these labs so that you don't actually need to write code to work through them. Hopefully the code blocks have enough comments that you'll be able to follow even if you don't have much coding experience. Mostly you'll just need to change some variables here and there to do the exercises.  But, of course, you're welcome to play with the code to explore the topics we cover and to write your own code! 
@@ -50,20 +52,20 @@ Some matplotlib tutorials:
 ## 0 List of Notebooks 
 
 ### M0 Preliminaries
-* [How to use these notebooks](./slp-m0-how-to-start.ipynb) (same as this readme, minus interactive code fragment)
+* [How to use these notebooks](./sp-m0-how-to-start.ipynb) (same as this readme, minus interactive code fragment)
 
 
 ### M1 Analyzing Sounds in Time and Frequency
-* [Sounds and Signals (praat)](./slp-m1-1-sounds-signals.ipynb)
-* [Digital Signals: Complex numbers and sinusoids](./slp-m1-2-digital-signals-complex-numbers.ipynb)
-* [Digital Signals: Sampling sinusoids](./slp-m1-3-sampling-sinusoids.ipynb)
-* [The Discrete Fourier Transform](./slp-m1-4-discrete-fourier-transform.ipynb)
-* [Interpreting the DFT](./slp-m1-5-interpreting-the-dft.ipynb)
+* [Sounds and Signals (praat)](./sp-m1-1-sounds-signals.ipynb)
+* [Digital Signals: Complex numbers and sinusoids](./sp-m1-2-digital-signals-complex-numbers.ipynb)
+* [Digital Signals: Sampling sinusoids](./sp-m1-3-sampling-sinusoids.ipynb)
+* [The Discrete Fourier Transform](./sp-m1-4-discrete-fourier-transform.ipynb)
+* [Interpreting the DFT](./sp-m1-5-interpreting-the-dft.ipynb)
 
 ### M2 Source and Filter
-* [Building the source: impulse trains](slp-m2-1-impulse-as-source.ipynb)
-* [FIR filters](slp-m2-2-fir-filters.ipynb)
-* [IIR filters](slp-m2-5-iir-filters.ipynb)
+* [Building the source: impulse trains](./sp-m2-1-impulse-as-source.ipynb)
+* [FIR filters](./sp-m2-2-fir-filters.ipynb)
+* [IIR filters](./sp-m2-5-iir-filters.ipynb)
 * [The Inverse DFT]()
 * [Poles and zeros (extension)]()
 
