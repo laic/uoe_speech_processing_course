@@ -1,10 +1,8 @@
 # Speech Processing 2020: How to use these notebooks 
 
-This repository includes lab notebooks for the University of Edinburgh course: Speech Processing (LASC11158/LASC10061).  
-At the moment this just contains notebooks for the first two modules of the course, which focus on signal processing. 
+This repository includes lab notebooks for the University of Edinburgh course: Speech Processing (LASC11158/LASC10061). At the moment this just contains notebooks for the first two modules of the course, which focus on signal processing. 
 
-The text below duplicates the content of the [How to notebook](./slp-m0-how-to-start.ipynb) to make the links clickable in gitlab! 
-
+The text below just duplicates the content of the [How to notebook](./slp-m0-how-to-start.ipynb) 
 
 ## 0 List of Notebooks 
 
