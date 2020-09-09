@@ -1,4 +1,4 @@
-Preliminaries {#preliminaries .unnumbered}
+Preliminaries<a name="preliminaries"></a>
 =============
 
 This document is intended as a guide for working with Praat for the
@@ -7,7 +7,7 @@ upcoming modules we will learn how to decide which annotations to make
 and where, but for now just focus on learning how to use the Praat
 functionality.
 
-Goals {#goals .unnumbered}
+Goals<a name="goals"></a>
 -----
 
 At the end of this tutorial you should be able to:
@@ -26,7 +26,7 @@ At the end of this tutorial you should be able to:
 
 -   Save the TextGrid for later use.
 
-Video resources {#video-resources .unnumbered}
+Video resources<a name="video-resources"></a>
 ---------------
 
 Sections [1](#section:getpraat){reference-type="ref"
@@ -48,7 +48,7 @@ open):
 -   [Praat 9: Saving your
     work](https://www.youtube.com/watch?v=izxtaMTkIpw&feature=youtu.be)
 
-Get Praat {#section:getpraat}
+Get Praat<a name="getpraat"></a>
 =========
 
 Praat is available for free from the Praat website,
@@ -256,7 +256,7 @@ play it.
 **Close the Sound editor window before moving on to the next part of the
 exercise.**
 
-Create a TextGrid {#section:TextGrid}
+Create a TextGrid<a name="TextGrid"></a>
 =================
 
 Select the sound from the Objects list again, and then click on
