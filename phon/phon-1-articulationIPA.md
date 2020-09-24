@@ -17,7 +17,7 @@ Preliminaries<a name="preliminaries"></a>
 
 Before you begin, you'll need to enrol in the Phonetics Foundations
 course on Quizlet via this [join
-link](https://quizlet.com/join/gaXPwja6b). If you have any trouble
+link](https://quizlet.com/join/wGbQPp72d). If you have any trouble
 enrolling, please email Rebekka: `r.puderbaugh@ed.ac.uk`
 
 Articulation and IPA practice
