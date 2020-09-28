@@ -27,15 +27,15 @@
 
 3. How do your IPA transcriptions differ from those in the Cambridge dictionary? 
     * Search here: https://dictionary.cambridge.org/dictionary/english/  
-
-  Why do they differ? 
+  
+    Why do they differ? 
 
  
 
 4. Transliterate your IPA transcriptions with the following phonesets (use the mapping in the appendix): 
 
-  a. ARPAbet<br/>
-  b. Unisyn 
+    a. ARPAbet<br/>
+    b. Unisyn 
 
 5. We will use ARPAbet and Unisyn in Festival. Familiarise yourself with the [unilex_phones.scm](https://laic.github.io/uoe_speech_processing_course/phon/tutorial1/unilex_phones.scm) file. You will need to open this in a text editor such as Atom (or view it [here on github](https://github.com/laic/uoe_speech_processing_course/blob/master/phon/tutorial1/unilex_phones.scm)).  Uni**lex** is a lexicon based on the uni**syn** database. Can you tell how the `defPhoneSet` function encodes phonetic dimensions? 
 
@@ -48,8 +48,8 @@
     * [LJ027-0094.wav](https://laic.github.io/uoe_speech_processing_course/phon/tutorial1/eng_wavs/LJ027-0094.wav)
     * [sa1.wav](https://laic.github.io/uoe_speech_processing_course/phon/tutorial1/eng_wavs/sa1.wav)
 
-  Then, use this automatic IPA transcriber:
-  https://www.dictate.app/phone - Choose the appropriate language from the list on the left, then drag and drop the audio file into the transcriber window. 
+    Then, use this automatic IPA transcriber:
+    https://www.dictate.app/phone - Choose the appropriate language from the list on the left, then drag and drop the audio file into the transcriber window. 
 
     a. Without listening to the English audio files, can you guess the words from the phones? 
   
@@ -65,11 +65,11 @@
   
    b. Compare the gold IPA transcription below to that produced by the automatic transcriber. 
    
- <blockquote>
-      qale cʰo tɤŋe kɤ-ti ɲɯ-ŋu. kɯɕɯŋgɯ tɕe, iɕqʰa 
-   </blockquote>
+      <blockquote>
+         qale cʰo tɤŋe kɤ-ti ɲɯ-ŋu. kɯɕɯŋgɯ tɕe, iɕqʰa 
+      </blockquote>
 
-  c. Could you use this tool to create a lexicon (pronunciation dictionary) for an unseen language? What difficulties might you face? How would you measure transcription accuracy? 
+   c. Could you use this tool to create a lexicon (pronunciation dictionary) for an unseen language? What difficulties might you face? How would you measure transcription accuracy? 
 
 ----
 ### Appendix - Approximate mappings across phonesets: 
