@@ -1,6 +1,6 @@
 #### _Speech Processing 2020: PHON_
 
-# Tutorial B: Week 1 - PHON
+# Module 1: PHON Tutorial
 
 1. With the aid of an IPA chart, fill in the following table: 
 
