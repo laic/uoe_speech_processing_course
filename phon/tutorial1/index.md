@@ -41,7 +41,7 @@
 
  
 
-6. Download (or find in your repository) the following English wav  files:
+6. Download (or find in your repository under `phon/tutorial1/eng_wavs`) the following English wav  files:
 
     * [hvd_001.wav](https://laic.github.io/uoe_speech_processing_course/phon/tutorial1/eng_wavs/hvd_001.wav)
     * [hvd_002.wav](https://laic.github.io/uoe_speech_processing_course/phon/tutorial1/eng_wavs/hvd_002.wav)
@@ -111,7 +111,7 @@
 |əʊ  |  GOAT  |  ow  |  ou |   @U |
 |p  |  PAT     |   p  |  p  |  p |
 |ɹ  |  RAT      |  r  |  r   | r |
-|ə  |  LETTER   | axr   | @r |   |
+|ə  |  LETTER   | axr   | @r |  @ |
 |s  |  SAT      |  s  |  s |   s |
 |ʃ  |  SHAM |   sh  |  sh |   S |
 |t  |  TAT |      t  |  t  |  t |
