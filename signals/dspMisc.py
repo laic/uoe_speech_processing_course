@@ -7,6 +7,39 @@ from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
 plt.style.use('ggplot')
 
+## Plot a waveform in time
+def plot_waveform(time_steps, amplitudes, title="time vs amplitude", ylim=(-2,2), figsize=(16,4)):
+    fig, timedom = plt.subplots(figsize=(16, 4))
+    timedom.scatter(time_steps, amplitudes, color='magenta')
+    timedom.plot(time_steps, amplitudes, color='magenta')
+    timedom.set_xlabel("time (s)")
+    timedom.set_ylabel("Amplitude")
+    timedom.set_title(title)
+    timedom.set_ylim(-2,2)
+    
+    return fig, timedom
+
+
+## Plot a magnitude spectrum
+def plot_mag_spectrum(output_frequencies, magnitudes,  title='Magnitude spectrum', figsize=(14,4)):
+    fig, fdom = plt.subplots(figsize=figsize)
+    fdom.stem(output_frequencies, magnitudes, 'b', use_line_collection=True) 
+    fdom.set_xlabel('Freq (Hz)')
+    fdom.set_ylabel('Magnitude')
+    fdom.set_title(title)
+    return fig, fdom
+
+## Zoom in on a magnitude spectrum plot
+def zoom_mag_spectrum(output_frequencies, magnitudes, center, window=50, title='Magnitude spectrum', figsize=(14,4)):
+    fig, fdom = plt.subplots(figsize=figsize)
+    fdom.stem(output_frequencies, magnitudes, 'b', use_line_collection=True) 
+    fdom.set_xlabel('Freq (Hz)')
+    fdom.set_ylabel('Magnitude')
+    fdom.set_title(title)
+    fdom.set_xlim((center-window, center+window))
+    
+    return fig, fdom
+
 ## A function that returns the complex numbers corresponding to the sine wave
 ## from time t=Tmin to Tmax, given a sample time of t_step and a desired 
 ## frequency (freq)
@@ -33,6 +66,91 @@ def gen_phasor_vals_freq(Tmin=0, Tmax=10, t_step=0.23, freq=None):
     return zs, thetas, tsteps
 
 
+def plot_phasor_and_sinusoid_static(As, Bs, thetas, xlim=(0,7), ylim=(-2,2), R=1):
+    
+    fig, (phasor, sinusoid) = plt.subplots(1, 2, gridspec_kw={'width_ratios': [4, 7]}, figsize=(15,5))
+    phasor.set(xlim=ylim, ylim=ylim)
+
+    ## plot the phasor: these are our complex zs values, i.e. e^(j*theta)
+    ## Since we set the magnitude to r=1, all these points sit nicely on the unit circle
+
+    ## Add in some axes lines
+    phasor.plot(ylim, [0,0], color='grey')
+    phasor.plot([0,0],ylim, color='grey')
+
+    ## Plot the unit circle in grey just to check 
+    circle1 = plt.Circle((0, 0), R, color='grey',fill=False)
+    phasor.add_artist(circle1)
+
+    ## plot our complex numbers (rectangular coordinates)
+    phasor.scatter(As, Bs)
+
+    ## Some labels for the left hand plot
+    phasor.set_xlabel("Real Component")
+    phasor.set_ylabel("Imaginary Component")
+
+
+    ## plot the sinusoid on the right: sin(theta)
+    ## The x-axis represents our theta values (think of this as time)
+    ## The y-axis is sin(theta)
+    sinusoid.set(xlim=xlim, ylim=ylim)
+    sinusoid.plot(thetas, R*np.sin(thetas), color='grey')
+    sinusoid.plot(thetas, Bs, 'o')
+
+    #print(R)
+    ## Some labels for the right hand plot
+    sinusoid.set_ylabel("Amplitude")
+    sinusoid.set_xlabel("Time ($t$ radians = $t$ seconds) ")
+    
+    return fig, phasor, sinusoid
+
+
+def plot_phasor_and_sinusoid(R=1, theta_min=0, theta_max=7, theta_step=0.23):
+    
+    thetas = np.arange(theta_min, theta_max, theta_step)
+    ## Generate sequence of complex numbers with r=1, theta=theta, for theta in thetas
+    
+    zs = R*np.exp(1j*thetas)
+    
+    As = np.real(zs)
+    Bs = np.imag(zs)
+    
+    #print(As.shape, Bs.shape, thetas.shape)
+    
+    fig, phasor, sinusoid = plot_phasor_and_sinusoid_static(As, Bs, thetas, xlim=(theta_min, theta_max), R=R)
+    
+    n_samples = As.shape[0]
+    
+    A = np.array(As).reshape(n_samples, 1)
+    B = np.array(Bs).reshape(n_samples, 1)
+
+    zeros = np.zeros(n_samples).reshape(n_samples, 1)
+    A = np.concatenate([zeros, A], axis=1)
+    B = np.concatenate([zeros, B], axis=1)    
+    
+    ## Some initialization
+    line = phasor.plot([], [], color='b', lw=3)[0]
+    point = phasor.plot([], [], 'o', color='b',  markersize=10)[0]
+    sin_t = sinusoid.plot([], [], 'o', color='b', markersize=10)[0]
+
+    ## Set axes lables
+    phasor.set_xlabel("Real Component")
+    phasor.set_ylabel("Imaginary Component")
+    sinusoid.set_xlabel("Time ($t$ radians = $t$ seconds) ")
+    sinusoid.set_ylabel("Amplitude")
+
+
+    ## Do the animation!
+    def anim_sinusoid(i):
+        t = thetas[i]
+        line.set_data(A[i, :], B[i,:])
+        point.set_data(A[i, 1], B[i,1])
+        sin_t.set_data(t, B[i, 1])
+
+    anim = FuncAnimation(
+        fig, lambda x: anim_sinusoid(x), interval=600, frames=n_samples)
+ 
+    return anim
 
 
 def create_phasor_sinusoid_bkg(Tmin, Tmax, ymax=2, plot_phasor=True, plot_real=False, plot_imag=True, color='grey'): 
@@ -241,19 +359,28 @@ def plot_phasor_static(zn, time_steps, ymax=1.5, plot_phasor=True, plot_real=Fal
     ## Plot the complex numbers (i.e. the phasor)
     if plot_phasor:
         phasor.scatter(zn_real, zn_imag , color=color)
+        phasor.set_xlabel('real component')
+        phasor.set_ylabel('imaginary component')
 
     ## Plot the imaginary part of the complex numbers (i.e., the sinusoid)
     if plot_imag:
         iproj.plot(time_steps, zn_imag, color=color)
         iproj.scatter(time_steps, zn_imag, color=color)
+        iproj.set_xlabel('time')
+        iproj.set_ylabel('amplitude')
         
     if plot_real:
         if not plot_phasor: 
             rproj.plot(time_steps, zn_real,  color=color)
             rproj.scatter(time_steps, zn_real, color=color)
+            rproj.set_xlabel('time')
+            rproj.set_ylabel('amplitude')
         else:
             rproj.plot(zn_real, time_steps, color=color)
             rproj.scatter(zn_real, time_steps, color=color)
+            
+            rproj.set_xlabel('amplitude')
+            rproj.set_ylabel('time')
     
     return X, Y, fig, phasor, iproj, rproj
 
@@ -364,4 +491,17 @@ def make_impulse_train(sample_rate, frequency, n_samples):
     time_steps = (1/sample_rate) * nsteps   
     
     return x, time_steps
+
+def fir_filter(x, filter_coeffs):
+    N = len(x)
+    K = len(filter_coeffs)
+    
+    y = np.zeros(N)   
+    for n in range(N):
+        for k in range(K):
+            if n-k >= 0: 
+                #print("y[%d]=%f, b[%d]=%f, x[%d]=%f" % (n, y[n], k, filter_coeffs[k], n-k, x[n-k]))
+                y[n] = y[n] + (filter_coeffs[k]*x[n-k])
+        #print("y[%d]=%f" % (n, y[n]))
+    return y    
 
