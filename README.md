@@ -1,5 +1,7 @@
 # Speech Processing Labs: How to use these notebooks
 
+**These notebooks are currently being revised for 2024-25**
+
 This repository includes phon lab instructions and signals lab notebooks for the University of Edinburgh course: Speech Processing (LASC11158/LASC10061). 
 
 
