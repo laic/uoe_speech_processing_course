@@ -99,14 +99,21 @@ For the moment, we will just press on and learn what we need to as we go, so we 
 
 Now that we've got the basics of Praat, let's go back to thinking about speech articulation. Specifically, we're going to use Praat to visualise and analyse what's going on in some tongue twisters!  These  are phrases that are difficult to say properly. Thinking about why they are difficult to articulate will hopefully help better understand difference in place and manner of articulation. 
 
-Let's start with some classic English ones:
+Let's start with some classic English ones, recorded with fast and slow speaking rates:
 
 1. She sells sea shells by the sea shore
-    * [seashells.wav](audio/seashells.wav) (i.e., the file we just opened)
-2. Peter Piper picked a peck of pickled peppers
-    * Recording
+    * [english_seashells-fast-sk.wav](audio/english_seashells-fast-sk.wav) (fast)
+    * [english_seashells-slow-sk.wav](audio/english_seashells-slow-sk.wav) (slow)
+    
+    This one is, of course, hte same tongue twister as the one we looked at above by spoken by a different speaker - can you tell just by looking at the waveform or spectrogram? 
+
+2. Peter Piper picked a peck of pickled peppers. Where’s the peck of pickled peppers Peter Piper picked?
+    * [english_peter_fast_pb.wav](audio/english_peter_fast_pb.wav) (fast)
+    * [english_peter_slow_pb.wav](audio/english_peter_slow_pb.wav) (slow)
+
 3. Seventy seven benevolent elephants
-    * Recording
+    * [english_seventy_fast_kr.wav](audio/english_seventy_fast_kr.wav) (fast)
+    * [english_seventy_slow_kr.wav](audio/english_seventy_slow_kr.wav) (slow)
 
 Please note, for this lab it really doesn't matter if you can say these correctly! In fact, errors will probably be more useful! 
 
@@ -123,7 +130,7 @@ We'll do some analysis on these one by one.
 
 ## Example 1: Seashells
 
-You already downloaded an opened the first recording in the previous section: "She sells sea shells by the sea shore".
+Download and open one of the recordings of "She sells sea shells by the sea shore". In the following I'll just use the first example (`seashells.wav`, spoken by Catherine) but you can use one of the others (spoken by Simon) if you prefer. 
 
 A big reason Praat is so popular with phoneticians is that it's convenient for annotation.  Let's add some textgrids to do annotations now. 
 
@@ -171,7 +178,7 @@ Some things to note:
 
 ### Annotate syllable initial consonants
 
-The tricksy bit of this tongue twister is the syllable initial consonants (aka syllable _onsets_).  Let's see what's going on by annotating the first phone in each syllable for place and manner, in the phone tier. 
+The tricksy bit of this tongue twister is the syllable initial consonants (aka syllable _onsets_).  Let's see what's going on by annotating the first phone in each syllable for place and manner, in the phone tier. You may find it useful to say the phrase yourself and to determine what your articulators are doing. 
 
 1. Add boundaries for the start and end of the first phone in each of the syllables in the recording.  
 
@@ -185,10 +192,21 @@ The interval box itself will be too small to see the full anotation, but you can
 
 ![Annotation of "sh" in "She" as unvoiced postalveolar fricative = ʃ](figs/sh-in-she.png)
 
+### Annotate the vowels
+
+Let's now look at the pattern of movement for vowels.  Again, you may find it useful to say the phrase yourself and to determine what your articulators are doing. 
+
+1. Add boundaries for the vowels in this recording
+2. Using the IPA chart, annotate each vowel with 
+    * height
+    * backness
+    * lip rounding
+    * the IPA symbol
+
 ### Where does your tongue twist?
 
 1. Try to say the phrase as fast as you can until you start making errors.  
-2. Annotate the points where you made errors on the `Error` tier. 
+2. Annotate the points where _you_ made errors on the `Error` tier. 
     * This is a point tier, so you'll be creating annotations for specific times rather than intervals. 
 
 **Questions:** 
@@ -198,7 +216,7 @@ The interval box itself will be too small to see the full anotation, but you can
 
 ### Waveform vs spectrogram: a preview of acoustic phonetics
 
-Even without any training in spectrogram interpretation (i.e. acoustic phonetics), you should be able to see that fricatives are quite distinctive!  
+Even without any training in spectrogram interpretation (i.e. acoustic phonetics), you should be able to see that fricatives are quite distinctive from other consonants in the spectrogram!  
 
 Questions:
 * Based on what you see (i.e. don't worry about technical terms for now): how would you describe what fricatives look like in the spectrogram? 
@@ -211,12 +229,14 @@ Questions:
 
 Tongue-twister: "Peter Piper picked a peck of pickled peppers" 
 
-1. Create similar annotations for the "Peter Piper" tongue twister? 
+1. Create similar annotations for the first sentence of the "Peter Piper" tongue twister: 
+    * [english_peter_slow_pb.wav](audio/english_peter_slow_pb.wav) 
     * This time you'll want to focus on word internal consonants.
 2. What sorts of manner and place variations cause difficulty in this example? 
 3. What sorts of errors are speakers likely to make? 
 4. What cues are you using to identify _plosives_ (aka oral stops) in the example in terms of waveform and spectrogram. 
     * Can you identify them just from the waveform?  
+
 
 # Record and analyse your own tongue twister
 
@@ -229,37 +249,62 @@ After recording yourself in Praat (see instructions below), try to identify the 
 
 Some more English example:
 
-* Seventy seven benevolent elephants
-* Which wrist watches are Swiss wrist watches?
+* Should such as shapely sash such shabby stitches show
+    * [english_sash_slow_pb.wav](audio/english_sash_slow_pb.wav) (slow)
+    * [english_sash_fast_pb.wav](audio/english_sash_fast_pb.wav) (fast)
+
 * Red lorry, yellow lorry, red lorry, yellow lorry
+    * [english_lorry_slow_pb.wav](audio/english_lorry_slow_pb.wav) (slow)
+    * [english_lorry_fast_pb.wav](audio/english_lorry_fast_pb.wav) (fast)
+
+* I'm not a pheasant plucker, I'm a pheasant plucker's son. 
+    * [english_pheasant_slow_kr.wav](audio/english_pheasant_slow_kr.wav) (slow)
+    * [english_pheasant_fast_kr.wav](audio/english_pheasant_fast_kr.wav) (fast)
 
 You can find many more on the internet! 
 
-Here are a some tongue twisters in other languages offered up by members of the Centre for Speech Technology Research: 
+And for inspiration, here are a some tongue twisters in other languages offered up by members of the Centre for Speech Technology Research (including the lab tutors): 
 
-* Catalan (Ariadna Sanchez): 
+* Catalan: 
     * Setze jutges d'un jutjat mengen fetge d'un penjat
     * "Sixteen judges of a court eat liver off a hangman"
+        * [catalan_slow_asc.wav](audio/catalan_slow_asc.wav) 
+        * [catalan_fast_asc.wav](audio/catalan_fast_asc.wav) 
 
-* Spanish (Ariadna Sanchez):
+* Spanish:
     * Tres tristes tigres comen trigo en un trigal
     * "Three sad tigers eat wheat in a wheat field"
+        * [spanish_slow_asc.wav](audio/spanish_slow_asc.wav)
+        * [spanish_fast_asc.wav](audio/spanish_fast_asc.wav)
 
-* Icelandic (Atli Sigurgeirsson): 
+* Icelandic: 
     * hnoðri í norðri verður að veðri þótt síðar verði.
-    * "A small cotton ball (probably meaning a small cloud) in the north becomes weather sooner or later"
+    * "A small cotton ball (cloud) in the north becomes weather sooner or later"
+        * [icelandic_as.mp3](audio/icelandic_as.mp3)
 
-* Czech (Ondrej Klejch): 
+* Czech: 
     * Strč prst skrz krk 
     * "Stick a finger through the neck"
+        * [czech-slow-ok.mp3](audio/czech-slow-ok.mp3)
+        * [czech-fast-ok.mp3](audio/czech-fast-ok.mp3)
 
-* Mandarin Chinese (Yuanchao Li): 
+* Mandarin Chinese: 
     * 四是四，十是十，十四是十四，四十是四十，四十四是四十四 
-    * Four is four, ten is ten, fourteen is fourteen, forty is forty, forty-four is forty-four.
+    * "Four is four, ten is ten, fourteen is fourteen, forty is forty, forty-four is forty-four."
+        * [Mandarin_slow_yl.wav](audio/Mandarin_slow_yl.wav)
+        * [Mandarin_fast_yl.wav](audio/Mandarin_fast_yl.wav)
 
-* Japanese (Yuanchao Li)
+* Japanese 
     * 生麦、生米、生卵
     * "Raw wheat, raw rice, raw egg"
+        * [Japanese_slow_yl.wav](audio/Japanese_slow_yl.wav)
+        * [Japanese_fast_yl.wav](audio/Japanese_fast_yl.wav)
+
+* Vietnamese
+    * Tâm tưởng tôi tỏ tình tới Tú từ tháng tư, thú thật, tôi thương Tâm thì tôi thì thầm thử Tâm thế thôị
+        * [vietnamese-slow_md.mp3](audio/vietnamese-slow_md.mp3)
+        * [vietnamese-fast_md.mp3](audio/vietnamese-fast_md.mp3)
+
 
 You can also find many others linked in the description of this video by Hank Green: [Tongue twisters](https://youtu.be/YVlLzjqJvIc?si=d2nG8W9kYA5uiRmM). This also has a nice discussion of why tongue twisters are hard! 
 
