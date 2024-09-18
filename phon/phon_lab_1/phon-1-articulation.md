@@ -249,6 +249,9 @@ After recording yourself in Praat (see instructions below), try to identify the 
 
 Some more English example:
 
+* Seventy seven benevolent elephants
+    * See links to recordings above! 
+
 * Should such as shapely sash such shabby stitches show
     * [english_sash_slow_pb.wav](audio/english_sash_slow_pb.wav) (slow)
     * [english_sash_fast_pb.wav](audio/english_sash_fast_pb.wav) (fast)
