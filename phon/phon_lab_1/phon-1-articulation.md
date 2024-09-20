@@ -362,5 +362,5 @@ Speaking is also constrained by the physicality of our actual articulators and r
 
 There are several other very interesting demos on the lab's youtube page: [Acoustic-phonetics demonstrations](https://www.youtube.com/@acoustic-phoneticsdemonstr4758) 
 
-You're probably now getting to understand why most humanoid robots don't even attempt include vocal tracts! Instead, we general speech waveforms using non-physical means on computers and play them out some speakers.  To do this we'll need to understand how we can "see speech" just from the waveform: i.e., acoustic phonetics. This is the focus of module 2. 
+You're probably now getting to understand why most humanoid robots don't even attempt include vocal tracts! Instead, we generally synthesize speech waveforms using non-physical means on computers and play them out some speakers.  To do this we'll need to understand how we can "see speech" just from the waveform: i.e., acoustic phonetics. This is the focus of module 2. 
 
