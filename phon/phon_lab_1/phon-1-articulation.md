@@ -283,7 +283,8 @@ And for inspiration, here are a some tongue twisters in other languages offered 
 * Icelandic: 
     * hnoðri í norðri verður að veðri þótt síðar verði.
     * "A small cotton ball (cloud) in the north becomes weather sooner or later"
-        * [icelandic_as.mp3](audio/icelandic_as.mp3)
+        * [icelandic_slow_as.mp3](audio/icelandic_slow_as.mp3)
+        * [icelandic_fast_as.mp3](audio/icelandic_fast_as.mp3)
 
 * Czech: 
     * Strč prst skrz krk 
