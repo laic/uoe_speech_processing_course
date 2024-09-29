@@ -1,6 +1,6 @@
-# _Speech Processing Labs: PHON 2: Analysing speech acoustics_
+### _Speech Processing Labs: PHON 2: Exploring speech acoustics_
 
-# Analysing speech acoustics 
+# Exploring speech acoustics 
 
 ## Learning Outcomes
 
