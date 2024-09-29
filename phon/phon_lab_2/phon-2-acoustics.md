@@ -91,10 +91,10 @@ We can measure the fundamental frequency (F0) of a waveform by counting the numb
 2. Zoom in so that you can see at least 5 of the beginning and ends of cycles of the waveform clearly for the [i] vowel
 3. Calculate the fundamental frequency over 5 cycles:   
     * Use the highlighter to select 5 cycles 
-    * The number in the bar above the pink highlighted section will be the duration of your selection, let's call this $d$
+    * The number in the bar above the pink highlighted section will be the duration of your selection, let's call this _d_
     * The number to the left of selection at the top is the start time of your selection.  Note this down for later! 
-    * You can now calculate the _fundamental period_ ($T_0$) of this wave as $d$/5
-    * The fundamental frequency is calculated as: $F_0 = 1/T_0$
+    * You can now calculate the _fundamental period_ (_T0_) of this wave as _d/5_
+    * The fundamental frequency is calculated as: _F0 = 1/T0_
 
 
 
