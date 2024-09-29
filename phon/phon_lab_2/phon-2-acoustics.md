@@ -173,25 +173,26 @@ It turns out the Praat defaults are pretty much tuned to this sort of analysis, 
 3. Open the corresponding Sound and TextGrid objects together (`View & Edit`)
 
 4. Change the spectrogram window length back to default: 0.005 seconds
+
 5. Turn on the automatic formant tracker: `Formants` > `Show formants`
 
-Now let's get some vowel formant measurements.  
+    Now let's get some vowel formant measurements.  
 
-The words in the recording are:  
-* Heed
-* Hid
-* Head
-* Had
-* Hod
-* Hawed
-* Hud
-* Hood
-* Who’d
-* Heard  
-* Hide
-* How’d
-* Hayed
-* Hoed
+    The words in the recording are:  
+    * Heed
+    * Hid
+    * Head
+    * Had
+    * Hod
+    * Hawed
+    * Hud
+    * Hood
+    * Who’d
+    * Heard  
+     Hide
+    * How’d
+    * Hayed
+    * Hoed
 
 5. For each of the words in the recording:
     * Click on middle-point of the vowel (in terms of time)
@@ -215,7 +216,7 @@ The words in the recording are:
 
         ![alt text](figs/formant_listing.png)
 
-        The formants values correspond the spectral envelope peaks if you look at a Spectral Slice at the same time point. You can make one to check!  
+        The formants values should correspond the spectral envelope peaks when you look at a Spectral Slice at the same time point. Check this for yourself!
 
     * Copy and paste the values to a spreadsheet (e.g. excel, google sheets) 
         * We'll want to  make a table with the following columns:
