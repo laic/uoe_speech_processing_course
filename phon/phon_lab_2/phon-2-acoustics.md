@@ -13,7 +13,7 @@
 
 ## Before the lab
 
-* Go through the [Module 2 videos and readings]()
+* Go through the [Module 2 videos and readings](https://speech.zone/courses/speech-processing/module-2-acoustic-phonetics/)
     * See [Module 1 lab](../phon_lab_1/phon-1-articulation) for an introduction to using Praat
 * You may wish to record the word list and "Mary" sentence in the last sections of this lab in a quiet spot before the lab.  
 
