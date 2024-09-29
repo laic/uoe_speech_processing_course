@@ -1,0 +1,56 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.767981859410432 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "vowels" 
+        xmin = 0 
+        xmax = 13.767981859410432 
+        points: size = 14 
+        points [1]:
+            number = 0.4382856642724425 
+            mark = "heed" 
+        points [2]:
+            number = 1.2252474778929312 
+            mark = "hid" 
+        points [3]:
+            number = 2.341988595676451 
+            mark = "head" 
+        points [4]:
+            number = 3.1235130050269366 
+            mark = "had" 
+        points [5]:
+            number = 4.404333355487063 
+            mark = "hod" 
+        points [6]:
+            number = 5.134564498111254 
+            mark = "hawed" 
+        points [7]:
+            number = 6.383800744284094 
+            mark = "hud" 
+        points [8]:
+            number = 7.104193782683277 
+            mark = "hood" 
+        points [9]:
+            number = 8.305920554348644 
+            mark = "who'd" 
+        points [10]:
+            number = 9.070767497083779 
+            mark = "heard" 
+        points [11]:
+            number = 10.438814033224775 
+            mark = "hide" 
+        points [12]:
+            number = 11.31584069117188 
+            mark = "how'd" 
+        points [13]:
+            number = 12.270677020711778 
+            mark = "hayed" 
+        points [14]:
+            number = 13.203315390031657 
+            mark = "hoed" 
