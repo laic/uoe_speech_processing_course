@@ -1,4 +1,4 @@
-## _Speech Processing Labs: PHON 1: Analysing speech articulations _
+##  _Speech Processing Labs: PHON 1: Analysing speech articulations_
 
 # Analysing speech articulation
 
