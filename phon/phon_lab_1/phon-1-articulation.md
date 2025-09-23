@@ -80,7 +80,7 @@ You may see a blue bar superimposed on the spectrogram (as in the screenshot abo
 
 You can turn the pitch track on and off by clicking on the `Pitch` menu at the top of the window and checking/unchecking `Show Pitch`.  The default method used here is "filtered autocorrelation" which you can see from the check mark in the menu.  
 
-**Automation Warning:** If the pitch tracking is good (as it is in the example above) you should be able to see a relatively smooth contour that matches your perception of when pitch goes up and down through the speech.  Unfortunately, pitch tracking can be quite prone to error. Almost all pitch trackers are sensitive to the range settings (i.e. expected minimum and maximum pitch values in Hertz).  If the expected range is doesn't really match the speaker's actually range you can get errors like octave doubling and halving.  You will also get errors if the phonation is "non-modal", e.g. creaky or breathy.  Sometimes data driven studies don't bother to check this and then end up with spurious results. 
+**Automation Warning:** If the pitch tracking is good (as it is in the example above) you should be able to see a relatively smooth contour that matches your perception of when pitch goes up and down through the speech.  Unfortunately, pitch tracking can be quite prone to error. Almost all pitch trackers are sensitive to the range settings (i.e. expected minimum and maximum pitch values in Hertz).  If the expected range doesn't really match the speaker's actually range you can get errors like octave doubling and halving.  You will also get errors if the phonation is "non-modal", e.g. creaky or breathy.  Sometimes data driven studies don't bother to check this and then end up with spurious results. 
 
 To change the range settings click on  `Pitch settings` from the `Pitch` menu.  The default range for Praat (50-800Hz) is ok, but you can often do better if you tweak this (e.g., see [this paper](https://doi.org/10.1121/1.3609833)). 
 
@@ -135,7 +135,7 @@ Download and open one of the recordings of "She sells sea shells by the sea shor
 A big reason Praat is so popular with phoneticians is that it's convenient for annotation.  Let's add some textgrids to do annotations now. 
 
 1. Click on the `Sound seashells` object in the _Objects_ window
-2. Click on the `Annotation` button to the right
+2. Click on the `Annotate` button to the right
 3. Select `To TextGrid...`
 
 You should see a little popup window named _Sound: To TextGrid_ which you can use to set the annotation parameters. Edit the parameters there as follows: 

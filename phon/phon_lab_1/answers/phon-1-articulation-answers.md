@@ -24,7 +24,7 @@ This is the module 1 lab worksheet annotated with comments and answers (generall
 _You don't need to submit anything for this lab_
 
 <span style="color:red">
-This lab is really about exploring articulation and having a go at using Praat.  You don't need to learn everything about Praat, though there are some resources linked below if you want to find out more.  Similarly, our goal isn't to do close phonetic transcription here, but rather to have some practice linking articulation to the phonetic terms and the IPA. 
+Comment: This lab is really about exploring articulation and having a go at using Praat.  You don't need to learn everything about Praat, though there are some resources linked below if you want to find out more.  Similarly, our goal isn't to do close phonetic transcription here, but rather to have some practice linking articulation to the phonetic terms and the IPA. 
 </span>
 
 
@@ -119,7 +119,7 @@ Let's start with some classic English ones, recorded with fast and slow speaking
     This one is, of course, hte same tongue twister as the one we looked at above by spoken by a different speaker - can you tell just by looking at the waveform or spectrogram? 
 
     <span style="color:red"> 
-    You should be able to see some differences in the following two visualisations: the first one is Catherine's recording, the second one is the link above (slow), recorded by Simon King.  You should see similarities in the spectrogram but they aren't completely the same.  Part of the difference hear is the difference in their voices, but some of this is also just recording conditions (i.e., noise).  The waveforms also look different, but you can't really tell that one recording is by another speaker just by looking at it.  Various other factors could be changing the waveform and spectrogram. 
+    Comment: You should be able to see some differences in the following two visualisations: the first one is Catherine's recording, the second one is the link above (slow), recorded by Simon King.  You should see similarities in the spectrogram but they aren't completely the same.  Part of the difference hear is the difference in their voices, but some of this is also just recording conditions (i.e., noise).  The waveforms also look different, but you can't really tell that one recording is by another speaker just by looking at it.  Various other factors could be changing the waveform and spectrogram. 
 
     </span>
 
@@ -146,7 +146,7 @@ Please note, for this lab it really doesn't matter if you can say these correctl
 
     <span style="color:red"> 
 
-    This part of the lab is really to get you thinking about your articulators, but here's some observations (which will be repeated in the later tasks)
+    Comment: This part of the lab is really to get you thinking about your articulators, but here's some observations (which will be repeated in the later tasks)
 
     1. Seashells: the difficult here is usually mixing up "she" and "sea", i.e. the place of articulation of the syllable initial fricative.  I tend to say "by the she shore". The difference in place between "s" [s] and "sh" [ʃ] is quite small, so it's easy to hit the wrong target. 
 
@@ -168,7 +168,7 @@ Please note, for this lab it really doesn't matter if you can say these correctl
 
     <span style="color:red">
 
-    1. Errors occur, usually from hitting the wrong place of articulation, but you can also get manner of articulation errors. As you get faster coordination of your articulators becomes more difficult and, without practice, your brain may direct your tongue to a "likely" place rather than the correct on.  
+    1. Errors occur, usually from hitting the wrong place of articulation, but you can also get manner of articulation errors. As you get faster, coordination of your articulators becomes more difficult and, without practice, your brain may direct your tongue to a "likely" place rather than the correct on.  
     </span>
 
 We'll do some analysis on these one by one. 
@@ -177,7 +177,7 @@ We'll do some analysis on these one by one.
 
 <span style="color:red">
 
-Some more practice with Praat.  This time adding TextGrids for annotations. 
+Comment: Some more practice with Praat.  This time adding TextGrids for annotations. 
 
 </span>
 
@@ -224,13 +224,13 @@ Some things to note:
 * There aren't really any gaps between words: words flow seamlessly into one another.  
 * You can see a very brief silence at the beginning of "by" in the waveform, but you won't really hear a pause in the speech.  
     * **Question**: what's happening here in articulatory terms? 
-        * <span style="color:red"> This is the closure portion of the [b] phone </span>
+        * <span style="color:red"> Answer: This is the closure portion of the [b] phone </span>
 
 * You need some context and knowledge about a language's written form (orthography) to place word boundaries.  
     * **Question**: When you are transcribing speech how to do you know whether "sea" and "shells" are should transcribed as separate words or as a compound word ("seashells")?
 
         <span style="color:red">
-         * You need some knowledge of the language and it's writing conventions. In this case, "seashell" as a noun is a single word.  This is maybe a good time to point out that an ASR system that only recognises words, but doesn't know anything else about English wouldn't be able to distinguish "sea shell" and "seashell".  So, this is some foreshadowing of the importance of a language model in automatic speech recognition. 
+         * Answer: You need some knowledge of the language and it's writing conventions. In this case, "seashell" as a noun is a single word.  This is maybe a good time to point out that an ASR system that only recognises words, but doesn't know anything else about English wouldn't be able to distinguish "sea shell" and "seashell".  So, this is some foreshadowing of the importance of a language model in automatic speech recognition. 
         </span>
 
 
@@ -238,7 +238,7 @@ Some things to note:
 
 <span style="color:red">
 
-The goal here is to break down articulations in terms of manner and place (hence the annotation task).  We also start to see the relationship between speech sounds, i.e., _phones_, the waveform and the spectrogram.  Even without much knowledge of what a spectrogram is, you should be able to see that there are some consistent patterns associated with specific types of speech sounds. 
+Comment: The goal here is to break down articulations in terms of manner and place (hence the annotation task).  We also start to see the relationship between speech sounds, i.e., _phones_, the waveform and the spectrogram.  Even without much knowledge of what a spectrogram is, you should be able to see that there are some consistent patterns associated with specific types of speech sounds. 
 
 </span>
 
@@ -275,9 +275,9 @@ Let's now look at the pattern of movement for vowels.  Again, you may find it us
 
 **Questions:** 
 * What type of mistake are people likely to make with this tongue twister? Is it in articulation of voicing, place or manner? 
-    * <span style="color:red"> Errors are usually to do with place of articulation: alveolar "s" [s] vs post-alveolar "sh" [ʃ] </span>
+    * <span style="color:red"> Answer: Errors are usually to do with place of articulation: alveolar "s" [s] vs post-alveolar "sh" [ʃ] </span>
 * What other factors may be contributing to pronunciation difficulties here? (Hint: does saying words that rhyme make it easier or harder?)
-    * <span style="color:red">The rhyming can also cause speakers to anticipate a specific articulation following the rhyming pattern.  I don't have too much trouble with this for the seashells example, but I do with other tongue twisters. </span>
+    * <span style="color:red"> Answer: The rhyming can also cause speakers to anticipate a specific articulation following the rhyming pattern.  I don't have too much trouble with this for the seashells example, but I do with other tongue twisters. </span>
 
 
 ### Waveform vs spectrogram: a preview of acoustic phonetics
@@ -300,7 +300,7 @@ Questions:
 
 <span style="color:red">
 
-The recording sounds pretty clear if you just listen to it.  The spectrogram is a good example of how reduced some vowels can get! The stops are fairly clear.  
+Comment: The recording sounds pretty clear if you just listen to it.  The spectrogram is a good example of how reduced some vowels can get! The stops are fairly clear.  
 
 Usually we'd mark the start of each stop at the point of closure (when the tongue or lips actually stops air going through your mouth). But it's not that clear here where the stop segments should start and end because he's speaking at such a slow rate!  In this case a little bit arbitrary. If you were doing this for a fine-grained phonetics analysis you would need to make some decisions on how to be consistent with this.  For automatic word transcription, we'll see that we don't need to be too worried about what the exact boundary is as long as it is consistent.   
 
@@ -312,13 +312,13 @@ Tongue-twister: "Peter Piper picked a peck of pickled peppers"
     * [english_peter_slow_pb.wav](audio/english_peter_slow_pb.wav) 
     * This time you'll want to focus on word internal consonants.
 2. What sorts of manner and place variations cause difficulty in this example? 
-    * <span style="color:red"> As mentioned above, we have sequences of [p] vowel [p, t, k].  The vowels in the first three "p" words end high front ([i], [aI], [I]) while the last three are front but vary in height [ɛ] (low-mid), [I] (high), [ɛ] (low-mid) </span>
+    * <span style="color:red"> As mentioned above, we have sequences of [p] vowel [p, t, k].  The vowels in the first three "p" words are high front ([i], [aI], [I]) in the first syllable while the last three are front but vary in height [ɛ] (low-mid), [I] (high), [ɛ] (low-mid) </span>
 3. What sorts of errors are speakers likely to make? 
     * <span style="color:red"> mixing up the word internal stops [p, t, k] and/or swapping a vowel in the last words (e.g., [I] to [ɛ])</span>
 4. What cues are you using to identify _plosives_ (aka oral stops) in the example in terms of waveform and spectrogram. an you identify them just from the waveform?  
     * <span style="color:red">  plosives are one of the easier phones to recognize from the waveform.  They are characterised by a closure (often seen as a flat line in the waveform) followed by a burst (large spike).  You can see these in the waveform, but you won't be able to identify which plosive it is just from the waveform. </span>
     
-    <span style="color:red">  We see this in the spectrogram a light/grey colored section (closure) followed by a dark vertical line (burst).  After the burst there is often a period of _aspiration:_ turbulent air flow from the burst.  In the spectrogram this will look like a fading away of the burst.  In module 2 we'll see that we can guess which plosive from the spectrogram, often by the way it affects the spectrum of the following vowel. </span>
+    * <span style="color:red">  We see this in the spectrogram a light/grey colored section (closure) followed by a dark vertical line (burst).  After the burst there is often a period of _aspiration:_ turbulent air flow from the burst.  In the spectrogram this will look like a fading away of the burst.  In module 2 we'll see that we can guess which plosive from the spectrogram, often by the way it affects the spectrum of the following vowel. </span>
 
 
 
@@ -329,7 +329,7 @@ Now let's try recording a tongue twister yourself and analysing it. If you speak
 After recording yourself in Praat (see instructions below), try to identify the articulation patterns that cause difficulty.  Again, think about whether the confusions/errors that arise are in terms of placement of articulators.  Describe this in terms of voicing, place and manner for consonants.  For vowels, think about tongue frontness, height, and rounding.  We've focused mostly on consonants in this lab, but don't worry we'll do more on vowels next week. 
 
 <span style="color:red">
-This is part of the lab is more of an extension and that you can have a go at recording yourself.  I think it's also fun to see that tongue twisters are something common across languages! 
+Comment: This is part of the lab is more of an extension and that you can have a go at recording yourself.  I think it's also fun to see that tongue twisters are something common across languages! 
 
 I wouldn't expect full analyses of these examples.  The main thing is to think about what your articulators are doing if you try to say some of these. 
 
