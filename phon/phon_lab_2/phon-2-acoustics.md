@@ -151,7 +151,7 @@ We're not going to go over F0 tracking methods in this course, but you can find 
 
 Narrow-band spectrograms allow us to see the frequency harmonics due to the voice _source_.  But when it comes to identifying vowels in English, we want to focus on the resonances of the vocal tract, i.e., the _filter_. 
 
-In this section, we'll look at how changes in the vocal tract shape are visibile in the spectrogram.  We'll do this by looking at the estimated **formants** (i.e., vocal tract resonances) change for different vowels in a recording of a US English speaker.  You can then record yourself and see how your vowel space compares! 
+In this section, we'll look at how changes in the vocal tract shape are visible in the spectrogram.  We'll do this by looking at the estimated **formants** (i.e., vocal tract resonances) change for different vowels in a recording of a US English speaker.  You can then record yourself and see how your vowel space compares! 
 
 
 ## Vowel Space (US English speaker)
@@ -264,6 +264,7 @@ One of the major issues for speech technologies is that pronunciation varies a l
 **Extra:** Compare your Marry/Mary/merry to some other speakers.  Here's some examples to start you off:
 * [english_mary-sk.wav](../phon_lab_1/audio/english_mary-sk.wav)
 * [english_mary-kr.wav](../phon_lab_1/audio/english_mary-kr.wav)
+* [english_mary-sg.wav](../phon_lab_1/audio/english_mary-sg.wav)
 
 # End notes
 
