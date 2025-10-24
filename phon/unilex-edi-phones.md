@@ -7,7 +7,7 @@ Fitt, S., Isard, S. (1999) Synthesis of regional English using a keyword lexicon
 
 The unilex keysymbol in the leftmost column is the general 'keysymbol' for the unilex dictionary.  These symbols are associated with specific keywords.  We then use rules to map accent specific pronunications.  So, in some cases different phones are merged in the Edinburgh pronunciation (e.g. several vowels get mapped to [a]) - see the "Edinburgh mapping" column.  
 
-I've also given the equivalent IPA symbol for the Edinburgh phone as given in Unisyn/Unilex documentation. This varies between accents though, so you might see a different unilex phone symbol (and corresponding IPA symbol) for Welsh English, for example, for the keywords listed below.  
+I've also given the equivalent IPA symbol for the Edinburgh phone as given in Unisyn/Unilex documentation. This varies for other accents though, so you might see a different unilex phone symbol (and corresponding IPA symbol) for Welsh English, for example, for the keywords listed below. If you want to see the mappings for different accents, see the Unisyn/Unilex documentation linked on speech.zone above.  
 
 
 | unilex keysymbol | keyword | vowel(+) or consonant(-)? | vowel length | vowel height |  vowel frontness  |  vowel rounding |  consonant type |  consonant place  | consonant voicing | Edinburgh mapping | IPA | 
