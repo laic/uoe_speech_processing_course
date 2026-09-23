@@ -229,7 +229,7 @@ It turns out the Praat defaults are pretty much tuned to this sort of analysis, 
 
 **Task:** now that you have formant values for each of the words in the recording, you can make a plot of the vowel space!  
 
-You can use whatever method you like for this: e.g., Excel, R, python, online plotting tools (e.g., [canva graphmaker](https://www.canva.com/graphs/)i), or pen and paper. 
+You can use whatever method you like for this: e.g., Excel, R, python, online plotting tools (e.g., [canva graphmaker](https://www.canva.com/graphs/)), or pen and paper. 
 
 If you want to give the plot the same orientation as the IPA vowel chart, you'll need to:
 * Plot F2 on the horizontal axis
