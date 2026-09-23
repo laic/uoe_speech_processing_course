@@ -309,7 +309,7 @@ It turns out the Praat defaults are pretty much tuned to this sort of analysis, 
 
 **Task:** now that you have formant values for each of the words in the recording, you can make a plot of the vowel space!  
 
-You can use whatever method you like for this: e.g., Excel, R, python, online plotting tools (e.g., [plotly chart studio](https://chart-studio.plotly.com/create/#/)), or pen and paper. 
+You can use whatever method you like for this: e.g., Excel, R, python, online plotting tools (e.g., Canva), or pen and paper. 
 
 If you want to give the plot the same orientation as the IPA vowel chart, you'll need to:
 * Plot F2 on the horizontal axis
@@ -317,7 +317,7 @@ If you want to give the plot the same orientation as the IPA vowel chart, you'll
 * Orient the axes so that (0,0) is in the top right hand corner of your graph  
 
 <span style="color:red">
-From past experience, students seem to know how to plot using excel, but I find using that quite complicated.  Below is one I made using canva, which is more straightforward (to me!).  The main things to adjust are the axes: switching max and min values reverses the direction so that (0,0) is in the top right corner.  Start by selecting scatterplot from the options and enter the data in the Data tab and set the X and Y axes and labels there.  Then in Customise tab set the minimum for Y axis to 1500 and the maximum to 0 (and similarly for the X axis).  You can then play around to make it more aesthetically pleasing!  
+From past experience, students seem to know how to plot using excel, but I find using that quite complicated.  Below is one I made using Canva, which is more straightforward (to me!).  The main things to adjust are the axes: switching max and min values reverses the direction so that (0,0) is in the top right corner.  Start by selecting scatterplot from the options and enter the data in the Data tab and set the X and Y axes and labels there.  Then in Customise tab set the minimum for Y axis to 1500 and the maximum to 0 (and similarly for the X axis).  You can then play around to make it more aesthetically pleasing!  
 </span>
 
 <p>
