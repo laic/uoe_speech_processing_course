@@ -318,9 +318,11 @@ If you want to give the plot the same orientation as the IPA vowel chart, you'll
 
 <span style="color:red">
 From past experience, students seem to know how to plot using excel, but I find using that quite complicated.  Below is one I made using canva, which is more straightforward (to me!).  The main things to adjust are the axes: switching max and min values reverses the direction so that (0,0) is in the top right corner.  Start by selecting scatterplot from the options and enter the data in the Data tab and set the X and Y axes and labels there.  Then in Customise tab set the minimum for Y axis to 1500 and the maximum to 0 (and similarly for the X axis).  You can then play around to make it more aesthetically pleasing!  
+</span>
 
+<p>
 
-<br/>
+<span style="color:red">
 The plot does broadly match the IPA vowel chart but you should see that some vowels are quite close together, and some further apart.  This is partially an artefact of not doing any log-scaling here, but it's also due to the pronunciation of this specific speaker.  Note, the dipthongs are in a weird middle place, as we'd predicted. 
 
 </span>
