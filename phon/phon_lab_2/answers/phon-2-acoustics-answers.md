@@ -317,13 +317,15 @@ If you want to give the plot the same orientation as the IPA vowel chart, you'll
 * Orient the axes so that (0,0) is in the top right hand corner of your graph  
 
 <span style="color:red">
-From past experience, students seem to know how to plot using excel, but I find using that quite complicated.  Below is one I made using plotly chart studio, which is more straightforward (to me!).  The main things to adjust are the axes: switching max and min values reverses the direction so that (0,0) is in the top right corner.  You can change these in Axes > Range. In the traces menu, you can check "text" in the Display options to show the words (if you have the format I had above). You can rename the columns by clicking on the existing column names in the spreadsheet. There are lots of other options to fiddle with!
+From past experience, students seem to know how to plot using excel, but I find using that quite complicated.  Below is one I made using canva, which is more straightforward (to me!).  The main things to adjust are the axes: switching max and min values reverses the direction so that (0,0) is in the top right corner.  Start by selecting scatterplot from the options and enter the data in the Data tab and set the X and Y axes and labels there.  Then in Customise tab set the minimum for Y axis to 1500 and the maximum to 0 (and similarly for the X axis).  You can then play around to make it more aesthetically pleasing!  
 
+
+<br/>
 The plot does broadly match the IPA vowel chart but you should see that some vowels are quite close together, and some further apart.  This is partially an artefact of not doing any log-scaling here, but it's also due to the pronunciation of this specific speaker.  Note, the dipthongs are in a weird middle place, as we'd predicted. 
 
 </span>
 
-![Formant plot on made using plotly chart studio](./plotly_formants.png)
+![Formant plot on made using canva](./canva_plot2.png)
 
 # Plot your own vowel space
 
