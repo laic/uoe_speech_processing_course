@@ -57,7 +57,7 @@ I've also given the equivalent IPA symbol for the Edinburgh phone as given in Un
 | o | l**o**t | + | long | low | back | +  | 0 | 0 | 0 | oo | ɔ | 
 | au | cl**o**th | + | long | low | back | +  | 0 | 0 | 0 | oo | ɔ |  
 | oo | th**oug**ht | + | long | low | back | +  | 0 | 0 | 0 | oo | ɔ | 
-| or | n**or**th |+ | long | low | back | +  | 0 | 0 | 0 | or | ɔɹ | 
+| or | n**or**th |+ | long | low | back | +  | 0 | 0 | 0 | or | ɔ<sup>ɹ</sup> | 
 | our | f**or**ce | + | diphthong | mid | back | +  | 0 | 0 | 0 | our | o<sup>ɹ</sup> |
 | ii | fl**ee**ce | + | long | high | front | -  | 0 | 0 | 0 | ii | i | 
 | iy | happ**y** | + | long | high | front | -  | 0 | 0 | 0 | iy | i | 
